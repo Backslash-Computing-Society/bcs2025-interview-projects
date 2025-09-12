@@ -1,10 +1,9 @@
 #include <iostream>
-#include <thread>
-#include <chrono>
+#include <windows.h>
 using namespace std;
 //Sleep helper
 void wait(int ms) {
-	std::this_thread::sleep_for(std::chrono::milliseconds(ms));
+	Sleep(ms);
 }
 int main() {
 cout<<"============================================\n";
