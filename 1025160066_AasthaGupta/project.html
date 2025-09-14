@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Introduction -AASTHA GUPTA </title>
+  <style>
+    /* Basic Reset and Box-sizing */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      margin: 30px;
+      color: #2c3e50;
+    }
+    .container {
+      max-width: 600px;
+      background-color: rgba(255, 255, 255, 0.95); /* almost white with opacity */
+      border: 2px solid #2980b9; /* navy blue border */
+      padding: 25px 30px;
+      margin: auto;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      position: relative;
+    }
+ 
+.skills{ text-decoration: Underline}
+
+
+}
+    h1 {
+      color: #2980b9;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 2.2em;
+    }
+    p.intro {
+      font-size: 1.1em;
+      line-height: 1.6;
+      margin-bottom: 25px;
+      font-style: italic;
+      color: #34495e;
+    }
+    /* Styling lists with columns and custom bullet */
+    ul.skills {
+      list-style-type: none; /* remove default bullets */
+      column-count: 2;
+      column-gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+ul.skills li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 12px;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    /* Custom bullet squares with pseudo class */
+    ul.skills li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 10px;
+      height: 10px;
+      background-color: #2980b9;
+    }
+    h2 {
+     ;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #1f618d;
+    }
+    /* Styling links with hover */
+    a {
+      color: #2980b9;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a:hover, a:focus {
+ color: #1b4f72;
+     ;
+    }
+    /* Floats for side by side texts */
+    .goal-section {
+      overflow: hidden; /* clear floats */
+    }
+    .goal-section div {
+      width: 48%;
+      float: left;
+      margin-right: 4%;
+      font-size: 1.1em;
+      color: #34495e;
+    }
+    .goal-section div:last-child {
+      margin-right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle"></div>
+    <h1>Hello! I’m AASTHA GUPTA</h1>
+    <p class="intro">A first-year Computer Science Engineering student eager to learn and grow.</p>
+
+    <h2>Skills I Know</h2>
+    <ul class="skills">
+      <li>Basic HTML &amp; CSS</li>
+      <li>Introductory C++ programming</li>
+    </ul>
+
+<h2>Goals & Aspirations</h2>
+    <div class="goal-section">
+      <div>
+        <p>I want to strengthen my coding skills through project work and real-world problem solving.</p>
+      </div>
+      <div>
+        <p>Excited to collaborate with and learn from experienced team members in Backslash.</p>
+      </div>
+    </div>
+
+    <p>Feel free to see my <a href="#" tabindex="0">portfolio</a> or connect with me!</p>
+  </div>
+</body>
+</html>
