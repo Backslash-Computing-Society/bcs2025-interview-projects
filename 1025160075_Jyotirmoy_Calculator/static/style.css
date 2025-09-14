@@ -1,0 +1,60 @@
+body{
+
+background-color: black;
+text-align: center;
+
+
+}
+
+.calculator{
+border: 2px solid white;
+padding: 20px;
+border-radius: 20px;
+}
+
+input{ 
+width: 50px;
+padding: 20px;
+border-radius: 50px;
+border: none;
+margin: 20px;
+font-size: 40px;
+text-align: right;
+cursor: pointer;
+background: white;
+} 
+  
+input::placeholder{
+    color: black;
+    
+    
+}
+
+button{
+
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin: 7px;
+    border-radius: 100%;
+    font-size: 20px;
+    background: rgb(41, 39, 39);
+    color: white;
+    cursor: pointer;
+}
+
+.equal{
+    background: red;
+    
+
+
+}
+
+
+
+
+
+
+
+
+

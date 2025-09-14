@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+ font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #111;  
+  padding: 20px 0;
+  text-align: center;      
+}
+
+/* Logo img */
+.navbar img {
+  width: 80px;   
+  display: block;
+  margin: 0 auto;
+}
+
+/* Tagline */
+.tagline {
+  margin-top: 8px;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* Background */
+.background {
+  height: 100vh; 
+  background: url('bg.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Nexus Heading */
+.background h1 {
+  font-size: 200px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+ letter-spacing: 5px;
+  text-shadow: 0 0 100px #fff;
+}
+
+/* Tagline nexus */
+.background h2 {
+  font-size: 35px;
+  margin-top: 0px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+
+/* Sponsored text */
+.sponsored {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #cccccc;
+}
+
+/* KLAW logo */
+.sponsored img {
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 120px;  
+}
+
+/* Separator line */
+.separator {
+  height: 3px;
+  background-color: red;
+  width: 100%;
+}
+
+/* About Nexus Section */
+#about-nexus {
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  background-color: #000; 
+}
+
+#about-nexus h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+#about-nexus p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Separator line */
+.separator {
+  height: 3px;
+  background-color: red;
+  width: 100%;
+}
+
+/* Details Section */
+#details {
+  padding: 80px 40px;
+  text-align: left;
+  color: white;
+  background-color: #111; 
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,0,0,0.4);
+}
+
+#details h2 {
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px red;
+}
+
+#details p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Prizes Section */
+#prizes {
+  padding: 80px 40px;
+  text-align: center;
+  color: white;
+  background-color: #111;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255,0,0,0.4);
+  max-width: 1000px;
+  margin: 50px auto 0 auto;
+}
+
+#prizes h2 {
+  font-size: 50px;
+  color: red;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px red;
+  margin-bottom: 40px;
+}
+
+#prizes .prize-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#prizes .prize-logos img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255,0,0,0.5);
+}
+
+/* Register Section */
+#register {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #000;
+  color: white;
+}
+
+#register h2 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#register p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.registerbutton {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Join Section */
+#join {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+#join h2 {
+  font-size: 40px;
+  color: red;
+  margin-bottom: 20px;
+}
+
+#join p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+/* Social icons */
+.socialicons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Credits Section */
+#credits {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+.clg-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.clg-logos img {
+  width: 70px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 246, 246, 0.5);
+}
+
