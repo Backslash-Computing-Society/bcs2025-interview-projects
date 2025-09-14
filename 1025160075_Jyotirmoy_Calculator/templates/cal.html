@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="{{ url_for('static',filename='style.css')}}">
+  </head>
+<body>
+<form action="{{ url_for('calculate')}}" method="post">  
+   <div class="calculator">
+      <input type="text" value="{{ display1 }}" placeholder="0" style="width: 30% ;"> <br>
+       <button type="submit" name="input" value="AC">AC</button>
+       <button type="submit" name="input" value="%">%</button>
+       <button type="submit" name="input" value="DE">DE</button>
+       <button type="submit" name="input" value="/">/</button><br>
+       <button type="submit" name="input" value="7">7</button>
+       <button type="submit" name="input" value="8">8</button>
+       <button type="submit" name="input" value="9">9</button>
+       <button type="submit" name="input" value="*">*</button> <br>
+       <button type="submit" name="input" value="4">4</button>
+       <button type="submit" name="input" value="5">5</button>
+       <button type="submit" name="input" value="6">6</button>
+       <button type="submit" name="input" value="-">-</button>
+       <br>
+       <button type="submit" name="input" value="1">1</button>
+       <button type="submit" name="input" value="2">2</button>
+       <button type="submit" name="input" value="3">3</button>
+       <button type="submit" name="input" value="+">+</button>
+       <br>
+       <button type="submit" name="input" value="00">00</button> 
+       <button type="submit" name="input" value="0">0</button> 
+       <button type="submit" name="input" value=".">.</button> 
+       <button class="equal" name="input" value="compute">=</button> 
+
+      
+   
+    </div>
+
+</form>
+
+   
+</body>
+</html>
