@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: black;
+    color: rgb(218, 61, 4);
+  }
+  
+  /* Navbar */
+  header {
+    background: #222;
+    color: #fff;
+    padding: 15px 0;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  nav h1 {
+    font-size: 24px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  nav a:hover {
+    color: #00adb5;
+  }
+  
+  /* Hero */
+  #hero {
+    text-align: center;
+    padding: 80px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("backslash_computing_society_logo.jpeg") no-repeat center center/cover;
+     color: #fff;
+  }
+  #hero span {
+    color: white;
+  }
+  
+  /* Sections */
+  section {
+    padding: 40px 20px;
+    width: 80%;
+    margin: auto;
+  }
+  h2 {
+    margin-bottom: 15px;
+    color: rgb(132, 132, 132);
+  }
+  
+  /* Projects */
+  .project {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
