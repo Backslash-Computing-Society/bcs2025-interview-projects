@@ -1,0 +1,31 @@
+*{
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+    
+}
+body{background-color: rgb(245, 243, 243);
+    background-image: url(/project/elena-kasper-KJW0ghAZL4w-unsplash.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+} 
+.box{
+    background-color: rgb(253, 219, 219);
+    border: 2px black solid;
+    width: 30%;
+}
+form{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.input-submit{
+    text-align: center;
+    cursor: pointer;
+    
+}
