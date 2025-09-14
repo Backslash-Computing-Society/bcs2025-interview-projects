@@ -1,0 +1,180 @@
+body {
+    background: #eef2f5;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.todo-app {
+    background: #fff;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #fdf5e6;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.header .date, .header .time {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#task-input {
+    flex-grow: 1;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 12px 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+#task-input:focus {
+    border-color: #a0c2e3;
+    box-shadow: 0 0 5px rgba(160, 194, 227, 0.5);
+}
+
+#add-button {
+    background: #8e44ad;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+#add-button:hover {
+    background: #7a3a93;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#task-list li {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+#task-list li.completed {
+    background: #e9e9e9;
+    color: #999;
+}
+
+#task-list li.completed .task-text {
+    text-decoration: line-through;
+}
+
+#task-list li input[type="checkbox"] {
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 15px;
+    position: relative;
+    transition: border-color 0.3s ease;
+}
+
+#task-list li input[type="checkbox"]:checked {
+    border-color: #8e44ad;
+    background: #8e44ad;
+}
+
+#task-list li input[type="checkbox"]:checked::after {
+    content: '✓';
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.task-text {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.auto-remove-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #555;
+    font-size: 14px;
+}
+
+/* Basic styling for the toggle checkbox */
+#auto-remove-toggle {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #ccc;
+    outline: none;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#auto-remove-toggle:checked {
+    background: #8e44ad;
+}
+
+#auto-remove-toggle::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background: white;
+    transition: 0.4s;
+}
+
+#auto-remove-toggle:checked::before {
+    transform: translateX(20px);
+}
