@@ -45,5 +45,23 @@
         "thread": "cpp",
         "typeinfo": "cpp",
         "Volume of Cone.C": "cpp"
-    }
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "MySQL Thapar",
+            "database": "thaparprojects",
+            "username": "root",
+            "password": "Abhay@123",
+            "connectionTimeout": 60
+        }
+    ]
 }
